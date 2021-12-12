@@ -7,5 +7,3 @@
 ## -How to run 
 
 - python spammer.py 
-
-- enter phone
