@@ -1,10 +1,10 @@
-# spammer-python
+# Spammer-Python
 
-# requirements
+## -Requirements
 
 - pip install requests
 
-# How to run 
+## -How to run 
 
 - python spammer.py 
 
